@@ -7,20 +7,20 @@ Rostock MAX v3   = 5
 Hacker H2        = 6
 */
 // ### Define your Printer Model here! ###
-#define PRINTER 5
+#define PRINTER 2 /* Rostock Max V2 */
 
 // SeeMeCNC Bowden w/PEEK barrel = 1
 // HE240 on ERIS w/accel probe   = 2
 // HE280 w/accel probe           = 3
-#define HOTEND 3
+#define HOTEND 1 /* Bowden with PEEK barrel */
 
 // ### Define your motherboard here! ###
 // 301 = RAMBo    302 = MINI RAMBo
-#define MOTHERBOARD 301
+#define MOTHERBOARD 301 /* RAMBo */
 
 // ##### Older Orions w/ATX had Y inverted and NEW PSU on orions needs opposite ###
 // 1 = ATX on older machines  2 = Rail style PSU on newer machines ############################
-#define POWER_SUPPLY 2
+#define POWER_SUPPLY 1 /* ATX */
 
 // ### Number of active extruders
 // 1 is standard, 2 is with the Y coupler for dual filament input
